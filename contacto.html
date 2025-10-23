@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - English Mastery</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>English Mastery</h1>
+                <p>Excelencia en enseñanza de inglés</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="precios.html">Precios</a></li>
+                    <li><a href="contacto.html" class="active">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Contacto -->
+    <section class="page-hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Contáctanos</h1>
+                <p>Estamos aquí para ayudarte a alcanzar tus metas en inglés</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Información de Contacto -->
+    <section class="contact-info">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <h3>WhatsApp Directo</h3>
+                    <p>+593 93 930 7753</p>
+                    <p>Respuesta inmediata</p>
+                    <a href="https://wa.me/593939307753?text=Estoy%20interesad@" class="btn-whatsapp" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Enviar Mensaje
+                    </a>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Horario de Atención</h3>
+                    <p>Lunes a Viernes: 8:00 - 20:00</p>
+                    <p>Sábados: 9:00 - 14:00</p>
+                    <p>Horario flexible según necesidad</p>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Modalidad</h3>
+                    <p>Clases Online</p>
+                    <p>Plataformas: Zoom, Meet, Discord</p>
+                    <p>Acceso desde cualquier lugar</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulario de Contacto -->
+    <section class="contact-form-section">
+        <div class="container">
+            <div class="form-container">
+                <h2>Envíanos un Mensaje</h2>
+                <p class="form-description">Completa el formulario y serás redirigido a WhatsApp para enviarnos tu consulta con todos los detalles.</p>
+                
+                <form id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Nombre completo *</label>
+                            <input type="text" id="name" name="name" required placeholder="Tu nombre completo">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required placeholder="tu.email@ejemplo.com">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="service">Servicio de interés *</label>
+                            <select id="service" name="service" required>
+                                <option value="">Selecciona un servicio</option>
+                                <option value="Speaking">Speaking</option>
+                                <option value="Writing">Writing</option>
+                                <option value="Reading">Reading</option>
+                                <option value="Listening">Listening</option>
+                                <option value="Grammar">Grammar</option>
+                                <option value="Vocabulary">Vocabulary</option>
+                                <option value="Realización de Tareas">Realización de Tareas</option>
+                                <option value="Paquete Integral">Paquete Integral</option>
+                                <option value="Otro">Otro servicio</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="level">Nivel de inglés</label>
+                            <select id="level" name="level">
+                                <option value="">Selecciona tu nivel</option>
+                                <option value="Principiante">Principiante (A1-A2)</option>
+                                <option value="Intermedio">Intermedio (B1-B2)</option>
+                                <option value="Avanzado">Avanzado (C1-C2)</option>
+                                <option value="No sé">No sé mi nivel</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="urgency">Urgencia</label>
+                        <select id="urgency" name="urgency">
+                            <option value="">Selecciona urgencia</option>
+                            <option value="Normal">Normal (1-2 semanas)</option>
+                            <option value="Urgente">Urgente (2-5 días)</option>
+                            <option value="Muy urgente">Muy urgente (24-48 horas)</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Mensaje detallado *</label>
+                        <textarea id="message" name="message" rows="6" required placeholder="Cuéntanos en qué podemos ayudarte, tus objetivos específicos, fechas importantes, o detalles de tu tarea..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-submit">
+                        <i class="fab fa-whatsapp"></i> Enviar por WhatsApp
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Preguntas Frecuentes -->
+    <section class="faq-section">
+        <div class="container">
+            <h2>Preguntas Frecuentes</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>¿Cómo se realizan las clases?</h3>
+                    <p>Las clases son 100% online mediante Zoom, Google Meet o Discord, según tu preferencia. Solo necesitas conexión a internet.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>¿Qué métodos de pago aceptan?</h3>
+                    <p>Aceptamos transferencias bancarias. El pago se realiza antes de cada sesión o paquete.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>¿Puedo cancelar o reprogramar?</h3>
+                    <p>Sí, puedes reprogramar con 12 horas de anticipación. Las cancelaciones con menos tiempo pueden tener cargos.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>¿Ofrecen material de estudio?</h3>
+                    <p>Sí, todo el material necesario está incluido en el precio. Recibirás PDFs, ejercicios y recursos adicionales.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>English Mastery</h3>
+                    <p>Ofrecemos cursos de inglés especializados y ayuda con tareas para estudiantes de todos los niveles.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="servicios.html">Servicios</a></li>
+                        <li><a href="precios.html">Precios</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <p><i class="fab fa-whatsapp"></i> +593 93 930 7753</p>
+                    <a href="https://wa.me/593939307753?text=Estoy%20interesad@" target="_blank">WhatsApp Directo</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 English Mastery. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botón flotante de WhatsApp -->
+    <a href="https://wa.me/593939307753?text=Estoy%20interesad@" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
